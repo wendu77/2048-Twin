@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+  background: transparent;
+}
+#score {
+  color: #ff0000;
+  text-align: center;
+  margin: 0 auto;
+}
+#board {
+  background: transparent;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.text {
+  position: absolute;
+  margin-top: 60px;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  color: #fff;
+  max-width: 90%;
+  padding: 2em 3em;
+  /*background: rgba(0, 0, 0, 0.4);*/
+  /*text-shadow: 0px 0px 2px #131415;*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+a,
+a:visited {
+  color: #ff0000 /*e34234*/
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+  color: #ba160c;
+}
+
+
+table {
+  margin: .5em auto;
+}
+
+td {
+  text-align: center;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+
+a {
+  color: #ff0000;
+}
+
+
+#new-game {
+  display: block;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  /*width: 5%;*/
+  /*height: 30px;*/
+  margin-top: 40px;
+  margin: 0 auto;
+  /*margin-left: 47.5%;*/
+  /*cursor: pointer;*/
+}
+
+
+.instructions {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  padding: 2px;
+}

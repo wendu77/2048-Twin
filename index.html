@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+    -->
+    <!-- <link rel="stylesheet" href="/css/normalize.css"> -->
+    <!--
+    application.css is where you put your styles
+    -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/application.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./js/mousetrap.js"></script>
+    <script src="./js/underscore.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/application.js"></script>
+    <title>BLOODY 2048</title>
+  </head>
+  <body id="particles-js">
+    <div class="text">
+      <h1>BLOODY 2048</h1>
+      <h6 class="text-center">Score: <span id="score" class="text-center"></span></h6>
+      
+      <div id="boardWidth">
+        <table id="board">
+          <tr id="outer-index-0">
+            <td id="0-0">
+            </td>
+            <td id="0-1">
+            </td>
+            <td id="0-2">
+            </td>
+            <td id="0-3">
+            </td>
+          </tr>
+          <tr id="outer-index-1">
+            <td id="1-0">
+            </td>
+            <td id="1-1">
+            </td>
+            <td id="1-2">
+            </td>
+            <td id="1-3">
+            </td>
+          </tr>
+          <tr id="outer-index-2">
+            <td id="2-0">
+            </td>
+            <td id="2-1">
+            </td>
+            <td id="2-2">
+            </td>
+            <td id="2-3">
+            </td>
+          </tr>
+          <tr id="outer-index-3">
+            <td id="3-0">
+            </td>
+            <td id="3-1">
+            </td>
+            <td id="3-2">
+            </td>
+            <td id="3-3">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="button-container">
+        <button class="btn" id="new-game">New Game</button>
+      </div>
+      <div class="instructions">
+        <p>directions: use keyboard arrows to move</p>
+        <p>Based on <a href="http://gabrielecirulli.github.io/2048/" target="_blank">2048.</a> Made with &hearts; by <a href="http://chinwenduopara.com/">Chinwendu Opara</a> &copy 2017 </p>
+      </div>
+    </div>
+    <script src='https://cldup.com/S6Ptkwu_qA.js'></script>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
