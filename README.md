@@ -7,3 +7,5 @@ Pure JavaScript and ParticlesJS.
 
 ## Live Demo
 <strong>LINK</strong>: 
+
+![bloody-2048](https://user-images.githubusercontent.com/24254780/30508195-42eeb176-9a5f-11e7-8ffc-6d449064315a.gif)
